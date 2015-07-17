@@ -42,7 +42,7 @@ let consoler = {
       window.console.groupCollapsed(label);
     }
   },
-  groupEnd: function (label) {
+  groupEnd: function () {
     if (this.enabled && typeof console.groupEnd == 'function') {
       window.console.groupEnd();
     }
