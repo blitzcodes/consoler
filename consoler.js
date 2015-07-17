@@ -11,7 +11,7 @@ let consoler = {
 		// If console isn't available, or no args were sent, or call type is missing, bypass
 		if(!consoler.enabled || !args.length || typeof window.console[type] !== 'function')
 			return;
-
+	
 		window.console[type].apply(window.console, args);
 	},
 	/*************
