@@ -1,0 +1,26 @@
+{
+  "name": "consoler",
+  "version": "1.0.0",
+  "authors": [
+    "Sean 'Blitz' Homer <blitzcodes@gmail.com>"
+  ],
+  "description": "A basic fail safe console wrapper.",
+  "main": "consoler.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "console",
+    "log",
+    "debug"
+  ],
+  "license": "Apache Licence 2.0",
+  "homepage": "https://github.com/blitzcodes/consoler",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
