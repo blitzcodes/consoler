@@ -1,0 +1,20 @@
+{
+  "name": "consoler",
+  "version": "1.0.0",
+  "description": "A basic fail safe console wrapper.",
+  "main": "consoler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/blitzcodes/consoler/tree/master"
+  },
+  "keywords": [
+    "console",
+    "log",
+    "debug"
+  ],
+  "author": "Sean 'Blitz' Homer <blitzcodes@gmail.com>",
+  "license": "Apache License 2.0"
+}
