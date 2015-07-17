@@ -16,5 +16,12 @@
     "debug"
   ],
   "author": "Sean 'Blitz' Homer <blitzcodes@gmail.com>",
-  "license": "Apache License 2.0"
+  "license": "Apache License 2.0",
+  "browserify": {
+    "transform": [
+      [
+        "babelify"
+      ]
+    ]
+  }
 }
