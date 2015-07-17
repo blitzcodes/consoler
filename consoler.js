@@ -1,4 +1,11 @@
-// ES6 console fail safe wrapper
+'use strict';
+/**
+ * @module consoler
+ */
+ 
+/** 
+ * A basic ES6 console fail safe wrapper
+ */
 let consoler = {
 	/*************
 	 * Params
