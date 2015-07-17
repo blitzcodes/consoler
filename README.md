@@ -1,2 +1,2 @@
 # consoler
-A basic fail safe console wrapper.
+A basic ES6 fail safe console wrapper.
