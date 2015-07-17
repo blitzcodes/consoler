@@ -4,7 +4,7 @@
   "authors": [
     "Sean 'Blitz' Homer <blitzcodes@gmail.com>"
   ],
-  "description": "A basic fail safe console wrapper.",
+  "description": "A basic ES6 fail safe console wrapper.",
   "main": "consoler.js",
   "moduleType": [
     "globals"
