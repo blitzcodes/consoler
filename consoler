@@ -1,0 +1,44 @@
+(function(){
+  var consoler = {
+  	/*************
+  	 * Params
+  	 ************/
+  	enabled  : !!(window.console),
+  	/*************
+  	 * Private
+  	 ************/
+  	_msg     : function(type, args) {
+  		// If console isn't available, or no args were sent, or call type is missing, bypass
+  		if(!con.enabled || !args.length || typeof window.console[type] !== 'function')
+  			return;
+  
+  		window.console[type].apply(window.console, args);
+  	},
+  	/*************
+  	 * Public
+  	 ************/
+  	log      : function() {
+  		con._msg('log', arguments);
+  	},
+  	warn     : function() {
+  		con._msg('warn', arguments);
+  	},
+  	error    : function() {
+  		con._msg('error', arguments);
+  	},
+  	trace    : function() {
+  		con._msg('trace', arguments);
+  	},
+  	group    : function(label) {
+  		if(con.enabled && typeof window.console.groupEnd == 'function') {
+  			window.console.groupCollapsed(label);
+  		}
+  	},
+  	groupEnd : function(label) {
+  		if(con.enabled && typeof console.groupEnd == 'function') {
+  			window.console.groupEnd();
+  		}
+  	}
+  };
+  window.consoler = consoler;
+})();
